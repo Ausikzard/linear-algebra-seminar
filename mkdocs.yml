@@ -16,6 +16,9 @@ theme:
     - toc.follow
     - content.code.copy
     - navigation.top
+  font:
+    text: Lato
+    code: Fira Code
 
 markdown_extensions:
   - pymdownx.arithmatex:
