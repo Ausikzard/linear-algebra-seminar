@@ -1,0 +1,26 @@
+site_name: 2025 Fall Linear Algebra Seminar
+
+site_url: https://ise-student-nju.github.io/linear-algebra-seminar
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - content.code.copy
+    - navigation.top
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
